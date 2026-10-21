@@ -1,12 +1,16 @@
-# chainlens链迹智寻
+# 链迹智寻-融合大语言模型与图推理的虚拟货币案件协同分析系统
 
 虚拟币案件协同调查、资金追踪与证据分析系统。支持开源情报、规则资金追踪、关联主体发现、复杂交易语义分析及案件报告，各子系统保留独立入口。
 
 ## 下载
 
-- [下载软件](https://github.com/TOBYCheN123/chainlens/releases/download/v2026.10.21.3/chainlens.zip)：Windows 10/11 x64，完整解压后运行 `01_可执行程序/chainlens链迹智寻.exe`，无需安装 Python 或 Node.js。
-- [下载完整源码](https://github.com/TOBYCheN123/chainlens/releases/download/source-v2026.10.21.3/chainlens-source.zip)：包含前后端、桌面启动与构建代码、依赖说明及三个完整 SP 推理模型。完整工程位于 Release 附件；GitHub 自动生成的 Source code 归档不是完整复现包。
+- [下载软件](https://github.com/TOBYCheN123/chainlens/releases/download/v2026.10.21.4/chainlens.zip)：Windows 10/11 x64，完整解压后运行 `01_可执行程序/chainlens链迹智寻.exe`，无需安装 Python 或 Node.js。
+- [下载完整源码](https://github.com/TOBYCheN123/chainlens/releases/download/source-v2026.10.21.4/chainlens-source.zip)：包含前后端、桌面启动与构建代码、依赖说明及三个完整 SP 推理模型。完整工程位于 Release 附件；GitHub 自动生成的 Source code 归档不是完整复现包。
 - [SP 模型](https://github.com/TOBYCheN123/chainlens/releases/tag/sp-model-v1)：可在软件“能力与数据源”中按需下载。软件验证固定 SHA-256 后启用；未安装时 SP 分类不可用。
+
+## 以协同案件为核心
+
+案件管理与案件总览统一管理协同案件；进入案件直接打开协同工作台。支持只填写名称先建案，导入情报或历史材料，后补地址及来源，启动链上分析时才要求地址。独立子系统保留工具入口。
 
 ## 情报与协同调查
 
