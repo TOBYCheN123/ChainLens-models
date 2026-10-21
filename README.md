@@ -4,9 +4,13 @@
 
 ## 下载
 
-- [下载软件](https://github.com/TOBYCheN123/chainlens/releases/download/v2026.10.21.2/chainlens.zip)：Windows 10/11 x64，完整解压后运行 `01_可执行程序/chainlens链迹智寻.exe`，无需安装 Python 或 Node.js。
-- [下载完整源码](https://github.com/TOBYCheN123/chainlens/releases/download/source-v2026.10.21.2/chainlens-source.zip)：包含前后端、桌面启动与构建代码、依赖说明及三个完整 SP 推理模型。完整工程位于 Release 附件；GitHub 自动生成的 Source code 归档不是完整复现包。
+- [下载软件](https://github.com/TOBYCheN123/chainlens/releases/download/v2026.10.21.3/chainlens.zip)：Windows 10/11 x64，完整解压后运行 `01_可执行程序/chainlens链迹智寻.exe`，无需安装 Python 或 Node.js。
+- [下载完整源码](https://github.com/TOBYCheN123/chainlens/releases/download/source-v2026.10.21.3/chainlens-source.zip)：包含前后端、桌面启动与构建代码、依赖说明及三个完整 SP 推理模型。完整工程位于 Release 附件；GitHub 自动生成的 Source code 归档不是完整复现包。
 - [SP 模型](https://github.com/TOBYCheN123/chainlens/releases/tag/sp-model-v1)：可在软件“能力与数据源”中按需下载。软件验证固定 SHA-256 后启用；未安装时 SP 分类不可用。
+
+## 情报与协同调查
+
+独立情报文章自动汇入协同调查的情报案件库。点击“加入协同调查”可关联已有案件或选择地址新建案件，正文、公开来源和地址线索共同保存；从“案件线索 → 关联情报”查看。重复关联去重，新证据会提示更新报告，保存文章不会自动发起链上或模型请求。
 
 ## 示例与使用准备
 
