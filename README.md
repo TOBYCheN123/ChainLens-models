@@ -1,2 +1,19 @@
-# ChainLens-models
-Optional SP classifier assets for ChainLens desktop, with pinned checksums and on-demand downloads.
+# chainlens链迹智寻
+
+虚拟币案件协同调查、资金追踪与证据分析系统。支持开源情报、规则资金追踪、关联主体发现、复杂交易语义分析及案件报告，各子系统保留独立入口。
+
+## 下载
+
+- [下载软件](https://github.com/TOBYCheN123/chainlens/releases/download/v2026.10.21/chainlens.zip)：Windows 10/11 x64，完整解压后运行 `01_可执行程序/chainlens链迹智寻.exe`，无需安装 Python 或 Node.js。
+- [下载完整源码](https://github.com/TOBYCheN123/chainlens/releases/download/source-v2026.10.21/chainlens-source.zip)：包含前后端、桌面启动与构建代码、依赖说明及三个完整 SP 推理模型。完整工程位于 Release 附件；GitHub 自动生成的 Source code 归档不是完整复现包。
+- [SP 模型](https://github.com/TOBYCheN123/chainlens/releases/tag/sp-model-v1)：可在软件“能力与数据源”中按需下载。软件验证固定 SHA-256 后启用；未安装时 SP 分类不可用。
+
+## 使用准备
+
+首次启动显示使用说明。在线调查前，使用自己的 RPC、Etherscan 和 LLM 服务；RPC 需具备所用链的历史执行 trace 能力。情报采集使用本机 Edge/Chrome。桌面界面需要 Microsoft Edge WebView2 Runtime，软件包附有官方安装引导。
+
+软件不包含个人密钥、历史案件或浏览器资料。原始转移、规则候选和语义支持关系分别展示，不将模型审核通过等同于资金归属证明。复杂流动性及市场创建的语义解释仍有已知边界。
+
+## 源码运行
+
+Windows x64 与 Python 3.11：解压完整源码，阅读 README，执行 `powershell -ExecutionPolicy Bypass -File scripts/setup_source.ps1`，随后运行 `.venv\Scripts\python.exe run.py --open`。已提供前端构建产物；修改前端后需 Node.js 20.19+ 重新构建。模型用于推理复现，不包含模型训练数据。
